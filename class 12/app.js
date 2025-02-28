@@ -11,26 +11,26 @@
 
 
 
-let months = ["jan", "feb", "mar", "apri", "may", "june", "july", "aug", "sep", "oct", "nov", "dec"];
-var dates = new Date()
+// let months = ["jan", "feb", "mar", "apri", "may", "june", "july", "aug", "sep", "oct", "nov", "dec"];
+// var dates = new Date()
 
-var printDate = dates.getDate() + "/" + months[dates.getMonth()] + "/"
-    + dates.getFullYear()
-document.write(printDate)
-
-
-
-// var date = new Date().getTime()
-
-// var dateBod = new Date(prompt("enter your Date of birth")).getTime()
-
-// var minus = date - dateBod
-
-// var days = minus / (1000 * 60 * 60 * 24 * 365)
-
-// document.write(days)
+// var printDate = dates.getDate() + "/" + months[dates.getMonth()] + "/"
+//     + dates.getFullYear()
+// document.write(printDate)
 
 
-// var data = new Date ().getFullYear()
 
-// document.write(data)
+var date = new Date().getTime()
+
+var dateBod = new Date(prompt("enter your Date of birth")).getTime()
+
+var minus = date - dateBod
+
+var days = minus / (1000 * 60 * 60 * 24 * 365)
+
+document.write(Math.floor(days))
+
+
+var data = new Date ().getFullYear()
+
+document.write(Math.floor(data))
