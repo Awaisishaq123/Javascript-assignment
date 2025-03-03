@@ -20,17 +20,21 @@
 
 
 
-var date = new Date().getTime()
+// var date = new Date().getTime()
 
-var dateBod = new Date(prompt("enter your Date of birth")).getTime()
+// var dateBod = new Date(prompt("enter your Date of birth")).getTime()
 
-var minus = date - dateBod
+// var minus = date - dateBod
 
-var days = minus / (1000 * 60 * 60 * 24 * 365)
+// var days = minus / (1000 * 60 * 60 * 24 * 365)
 
-document.write(Math.floor(days))
+// document.write(Math.floor(days))
 
 
-var data = new Date ().getFullYear()
+// var data = new Date ().getFullYear()
 
-document.write(Math.floor(data))
+// document.write(Math.floor(data))
+
+
+// var dat = new Date().toString()
+// console.log(dat)
